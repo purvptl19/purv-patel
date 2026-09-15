@@ -31,14 +31,14 @@ public class DataInitializer implements CommandLineRunner {
             p.setTitle("Student");
             p.setEmail("patelpurv29939@gmail.com");
             p.setPhone("9998029939");
-            p.setLocation("patan, india");
+            p.setLocation("patan,Gujarat");
             p.setSummary("Final-year BSc IT student with strong hands-on skills in Java and " +
                     "database management. Comfortable building backend applications and working " +
                     "with relational databases end-to-end. Currently looking for an internship " +
                     "or entry-level opportunity to apply my skills on real-world projects.");
             p.setLinkedin("https://www.linkedin.com/in/purv-patel-197863399?utm_source=share_via&utm_content=profile&utm_medium=member_android");
             p.setGithub("https://github.com/purvptl19");
-            p.setWebsite("https://yourwebsite.com");
+            p.setWebsite("https://purv-patel.onrender.com/");
             profileRepository.save(p);
         }
 
